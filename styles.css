@@ -1,19 +1,20 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
+	font-family: Raleway;
 }
 
 .flex-container {
-  display: inline-flex;
-  border: solid 4px #000;
+	display: inline-flex;
+	border:solid 4px #000;
 }
 
 .flex-item {
-  color: #FFF;
-  font-size: 1.2em;
-  padding: 1em
-  text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+	padding: 1em;
+	text-align: center;
 }
 
 .flex-item:first-child {
