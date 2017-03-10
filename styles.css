@@ -7,15 +7,7 @@ body {
 
 .flex-container {
 	display: flex;
-	/*shorthand for using direction and wrap*/
-	flex-flow: row wrap;
-	/*flex-wrap: wrap-reverse;*/
-	/*flex-wrap: wrap;*/
-	/*flex-wrap: nowrap;*/
-	/*flex-direction: row;*/
-	/*flex-direction: row-reverse;*/
-	/*flex-direction: column;*/
-	/*flex-direction: column-reverse;*/
+	flex-direction: row;
 	border: solid 4px #000;
 	width: 55%;
 	height: 34em;
@@ -36,6 +28,8 @@ body {
 
 .flex-item-02 {
 	background-color: #9BC850;
+/*display order will not work for accessibility or tabbing*/
+	order: -1;
 }
 
 .flex-item-03 {
@@ -44,6 +38,7 @@ body {
 
 .flex-item-04 {
 	background-color: #2A9FBC;
+	order: 1;
 }
 
 .flex-item-05 {
